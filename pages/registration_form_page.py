@@ -1,7 +1,7 @@
 import allure
 from selene import browser, be, have, command
 
-from data.data_for_registration import Url, User, DateForRegistrationPage
+from data.data_for_registration import Url
 from pages.locators import RegistrationPageLocators as locators
 
 
