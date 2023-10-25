@@ -14,8 +14,8 @@ class RegistrationFormPage:
     @allure.step('Open practice form page')
     def open_form(self):
         self.browser.open(Url.URL)
-        browser.all(locators.ADS_ON_PAGE).with_(timeout=10).wait_until(
-            have.size_greater_than_or_equal(3)
+        browser.all(locators.ADS_ON_PAGE).with_(timeout=15).wait_until(
+            have.size_greater_than_or_equal(4)
         )
         browser.all(locators.ADS_ON_PAGE).perform(command.js.remove)
 
