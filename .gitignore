@@ -5,4 +5,5 @@ venv
 .env
 notifications/config.json
 notifications/draft.txt
+notifications/allure-notifications-4.5.0.jar
 allure-results
